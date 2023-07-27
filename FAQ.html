@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/FAQ.css">
+    <link rel="stylesheet" href="/assets/js/FAQ.js">
+    <title>FAQ-Mardigras</title>
+</head>
+<style>
+
+
+</style>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <img class="logo" src="/assets/images/logo.png" alt="">
+        <div class="topnav" id="myTopnav">
+            <a href="/Homepage.html">Home</a>
+            <a href="/About.html">About</a>
+            <a href="/Media.html">Media</a>
+            <a href="/FAQ.html">FAQ</a>
+            <a href="/Contact.html">Contact-us</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        </div>
+<button class="accordion">How is a king chosen? </button>
+<div class="panel">
+    <p>The method of selecting a king varies from krewe to krewe. Some krewes hold random drawings, while others invite a
+    celebrity guest to be their king. Rex, the King of Carnival, is chosen by the School of Design, who sponsors the Rex
+    parade. His identity is revealed the day before the parade.</p>
+</div>
+
+<button class="accordion">What is the significance of the Mardi Gras colors, and where did they come from?</button>
+<div class="panel">
+    <p>Rex, the King of Carnival, selected the Mardi Gras colors and assigned meaning to them in 1892. Purple stands for
+    justice, green for faith, and gold for power.</p>
+</div>
+
+<button class="accordion">When was the first Mardi Gras?</button>
+<div class="panel">
+    <p>The first Mardi Gras parade was held in New Orleans on Feb. 24, 1857 by the Krewe of Comus. They began the tradition of
+    presenting a parade with floats and following it with a ball for the krewe and their guests.</p>
+</div>
+<button class="accordion">Why are masks worn?</button>
+<div class="panel">
+    <p>By law, float riders must always have a mask on. On Fat Tuesday, masking is legal for everyone else, and the elaborate
+    masks that some wear add to the fun.</p>
+</div>
+<button class="accordion">What is Twelfth Night?</button>
+<div class="panel">
+    <p>Twelfth Night (aka, Twelfth Night, the Feast of the Epiphany and Three Kings' Day) is celebrated on January 6th in New
+    Orleans and is the official start of Mardi Gras every year. While the date of Fat Tuesday changes, Twelfth Night does
+    not. According to Wikipedia, different traditions mark the date of Twelfth Night as either January 5 or January 6 (it
+    depends on whether they start counting the twelve days on December 25 or 26).   </p>
+</div>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+
+<div class="footer">
+    <p>copyrights reserved to tal moreli</p>
+</div>  
+</body>
+
+</html>
